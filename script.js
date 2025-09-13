@@ -160,7 +160,7 @@ generate any interesting html ${type}
 with topics tags "${getRandomTopics()}" you want. 
 generate any html website you want following my requirements. 
 The output should be without any markdown. 
-Websites are also MUST be UNIQUE with clickable links.`;
+Websites are also MUST be UNIQUE with clickable links on real websites.`;
 console.log(prompt);
 puter.ai.chat(
     prompt
