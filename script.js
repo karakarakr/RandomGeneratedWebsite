@@ -134,7 +134,8 @@ const types = [
     'website with youtube videos',
     'simple WEBGL demo with <canvas>',
     'website single article text',
-    'with reddit links'
+    'with reddit links',
+    'with sub-reddit links',
 ];
 
 const getRandomTopics = () => {
