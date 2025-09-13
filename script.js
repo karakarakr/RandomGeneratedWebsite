@@ -128,11 +128,13 @@ const categories = [
 const types = [
     'website',
     'blog',
-    'game',
+    'simple game',
     'website with audio playing',
     'website with appearing youtube video',
     'website with youtube videos',
-    'WEBGL demo',
+    'simple WEBGL demo',
+    'website article',
+    'with reddit links'
 ];
 
 const getRandomTopics = () => {
