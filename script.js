@@ -128,7 +128,11 @@ const categories = [
 const types = [
     'website',
     'blog',
-    'game'
+    'game',
+    'website with audio playing',
+    'website with appearing youtube video',
+    'website with youtube videos',
+    'WEBGL demo',
 ];
 
 const getRandomTopics = () => {
@@ -146,7 +150,14 @@ const getRandomType = () => {
 // const temp = (Math.random() * 1.5 + 0.5).toFixed(2);
 // console.log(temp)
 const type = getRandomType();
-const prompt = `You are a web-developer who builds an html website for fun, art and experiment. your task is to generate any interesting html ${type} with topics tags "${getRandomTopics()}" you want with interactive elements and active links on any different websites. generate any html website you want with my requirements. The output should be without any markdown. Websites are also MUST be UNIQUE.`;
+const prompt = `You are a web-developer 
+who builds an html website for fun, 
+art and experiment. your task is to 
+generate any interesting html ${type} 
+with topics tags "${getRandomTopics()}" you want. 
+generate any html website you want following my requirements. 
+The output should be without any markdown. 
+Websites are also MUST be UNIQUE with clickable links.`;
 console.log(prompt);
 puter.ai.chat(
     prompt
