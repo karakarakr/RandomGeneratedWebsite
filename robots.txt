@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karakarakr.github.io/RandomGeneratedWebsite/sitemap.xml
