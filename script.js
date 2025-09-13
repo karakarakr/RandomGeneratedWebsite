@@ -122,6 +122,7 @@ const categories = [
     'dream machines',
     'forgotten tech',
     'magic vs science',
+    'game'
 ];
 
 const getRandomTopics = () => {
@@ -134,7 +135,7 @@ const getRandomTopics = () => {
 // const temp = (Math.random() * 1.5 + 0.5).toFixed(2);
 // console.log(temp)
 
-const prompt = `You are a web-developer who builds website for fun, art and experiment. your task is to generate any interesting html website with topics tags "${getRandomTopics()}" you want with interactive elements and active links on any different websites. generate any html blog-like website you want with interactive elements and article text inside. The output should be without any markdown. Websites are also MUST be UNIQUE.`;
+const prompt = `You are a web-developer who builds website for fun, art and experiment. your task is to generate any interesting html website with topics tags "${getRandomTopics()}" you want with interactive elements and active links on any different websites. generate any html website you want with my requirements. The output should be without any markdown. Websites are also MUST be UNIQUE.`;
 console.log(prompt);
 puter.ai.chat(
     prompt
