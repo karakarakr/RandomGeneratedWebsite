@@ -132,10 +132,11 @@ const types = [
     'website with audio playing',
     'website with appearing video',
     'website with videos',
-    'website with photos',
-    'website single article text',
+    'website photo-gallery',
+    'single-page article',
     'with reddit links',
     'with sub-reddit links',
+    'landing'
 ];
 
 const getRandomTopics = () => {
