@@ -132,8 +132,8 @@ const types = [
     'website with audio playing',
     'website with appearing youtube video',
     'website with youtube videos',
-    'simple WEBGL demo',
-    'website article',
+    'simple WEBGL demo with <canvas>',
+    'website single article text',
     'with reddit links'
 ];
 
