@@ -141,14 +141,14 @@ const types = [
 
 const getRandomTopics = () => {
     const max = 5; 
-    const count = Math.floor(Math.random() * max) + 1;
+    const count = Math.floor(Math.random() * max);
     const shuffled = [...categories].sort(() => 0.5 - Math.random());
     const selected = shuffled.slice(0, count);
     return selected.join(', ');
 };
 
 const getRandomType = () => {
-    const idx = Math.floor(Math.random() * types.length) + 1;
+    const idx = Math.floor(Math.random() * types.length);
     return types[idx];
 };
 // const temp = (Math.random() * 1.5 + 0.5).toFixed(2);
